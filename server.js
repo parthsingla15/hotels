@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const db=require('./db');
 
-const menu=require('./models/menu')
+const menu=require('./models/menu');
 
 const bodyParser=require('body-parser');
 app.use(bodyParser.json());
